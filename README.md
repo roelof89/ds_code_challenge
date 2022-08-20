@@ -25,8 +25,8 @@ pip install -r requirements.txt
 # Project layout
 This project has a few folders in which the work is structure.
 * data: were the data will be housed(a script creates this dir and loads the files for use 0-fetch_data.py)
-* notebooks: here I keep notebooks on analysis and data explorations, testing of concepts before developing run code
 * run: run code to perform the tasks requested
+* notebooks are stored at root
 
 
 # Fetch data
