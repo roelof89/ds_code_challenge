@@ -4,6 +4,7 @@
 # City of Cape Town - Data Science Unit Code Challenge
 ** please note I added this file to give feedback on which scripts to run, when and for what purpose
 I renamed the original README.md as CREADME.md
+Script files are labelled according to the task headers
 
 # Purpose
 Give feedback on the analysis and code I've produced for the challenge
