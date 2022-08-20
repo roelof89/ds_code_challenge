@@ -1,6 +1,7 @@
 import os
 import logging
 import pandas as pd
+import geopandas as gpd
 
 def count_na(data,col):
     return data[data[col].isna()].shape[0]
@@ -31,3 +32,13 @@ def make_logger(file_name):
 
     logger.setLevel(logging.INFO)
     return logger
+
+def load_service_data(file_path):
+    col_types = {
+    'notification_number':str,
+    'reference_number':str
+    }
+    date_cols = ['creation_timestamp','completion_timestamp']
+    sr = pd.read_csv(file_path, compression='gzip', index_col=0, parse_dates=date_cols,dtype=col_types)
+    sr = gpd.GeoDataFrame(sr, geometry=gpd.points_from_xy(sr.longitude, sr.latitude))
+    return sr
