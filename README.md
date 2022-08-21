@@ -34,3 +34,17 @@ We won't load file into github. I built a script to pull the data from the url a
 ```sh
 python 0-fetch_data.py
 ```
+
+# Task 2: initial data transformation
+There is a notebook and a run script
+The notebook serves to explain my reasoning behind the joins, method development and validation.
+The run script is just to perform the task and save the file
+```sh
+python 2-initial_data_transformation.py
+```
+
+# Task 4: predictive analytics
+I chose time series and anomaly detection
+2 notebooks for these exist
+* 4-predictive_analytic_tasks_forecast.ipynb
+* 4-predictive_analytic_tasks_anomaly.ipynb
