@@ -12,6 +12,7 @@ debugpy==1.6.3
 decorator==5.1.1
 entrypoints==0.4
 executing==0.10.0
+fastjsonschema==2.16.1
 Fiona==1.8.21
 fonttools==4.36.0
 geopandas==0.11.1
@@ -21,6 +22,7 @@ ipykernel==6.15.1
 ipython==8.4.0
 jedi==0.18.1
 joblib==1.1.0
+jsonschema==4.14.0
 jupyter-client==7.3.4
 jupyter-core==4.11.1
 kiwisolver==1.4.4
@@ -29,6 +31,7 @@ lunardate==0.2.0
 matplotlib==3.5.3
 matplotlib-inline==0.1.6
 munch==2.5.0
+nbformat==5.4.0
 nest-asyncio==1.5.5
 numpy==1.22.0
 packaging==21.3
@@ -48,6 +51,7 @@ pyluach==2.0.0
 PyMeeus==0.5.11
 pyparsing==3.0.9
 pyproj==3.3.1
+pyrsistent==0.18.1
 python-dateutil==2.8.2
 pytz==2022.2.1
 pyzmq==23.2.1
