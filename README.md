@@ -10,15 +10,19 @@ Script files are labelled according to the task headers
 Give feedback on the analysis and code I've produced for the challenge
 
 # Setup
-This project is built in python3.9 with a virtual environment.
+This project is built in <ins>python3.9</ins> with a virtual environment.
+The requirements.txt will match for py3.9.
 ```sh
 # On Mac/Linux
 python3 -m venv venv
 source venv/bin/activate
+pip install --upgrade pip
 pip install -r requirements.txt
 # On windows
 python3 -m venv venv
 source venv/Scripts/activate
+python -m pip install --upgrade pip
+sh win_install.sh
 pip install -r requirements.txt
 ```
 
